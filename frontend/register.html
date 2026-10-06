@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up — Quiz Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="hero">
+    <span class="eyebrow">Online Quiz Platform</span>
+    <h1>Start testing what you know.</h1>
+    <p>Create an account to take quizzes across topics and keep a record of every result.</p>
+  </div>
+
+  <div class="form-side">
+    <div class="form-box">
+      <h2>Create your account</h2>
+      <p class="subtext">Takes less than a minute.</p>
+
+      <div id="message" class="message"></div>
+
+      <form id="registerForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" required minlength="6">
+
+        <button type="submit">Sign up</button>
+      </form>
+
+      <p class="switch-link">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

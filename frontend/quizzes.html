@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizzes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div style="flex-direction: column; width: 100%;">
+    <div class="top-bar">
+      <span id="welcomeMsg"></span>
+      <a href="#" id="logoutLink">Log out</a>
+    </div>
+
+    <div class="quiz-list" id="quizList">
+      <h2 style="font-family:'Fraunces',serif;">Available Quizzes</h2>
+      <div id="quizItems"></div>
+    </div>
+
+    <div id="quizArea">
+      <h2 id="quizTitle" style="font-family:'Fraunces',serif;"></h2>
+      <form id="quizForm"></form>
+      <button type="submit" form="quizForm">Submit Quiz</button>
+    </div>
+
+    <div id="resultBox">
+      <h2>Quiz Complete</h2>
+      <p id="scoreText"></p>
+      <button id="backToList">Back to Quizzes</button>
+    </div>
+  </div>
+
+  <script src="js/quizzes.js"></script>
+</body>
+</html>
