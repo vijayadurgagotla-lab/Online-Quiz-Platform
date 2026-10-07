@@ -35,8 +35,8 @@ A web-based Online Quiz Platform that allows users to register, log in, attend q
 - VS Code
 
 ## Project Structure
+
 OnlineQuizPlatformFSD/
-│
 ├── backend/
 │   ├── configure/
 │   │   └── db.js
@@ -51,12 +51,12 @@ OnlineQuizPlatformFSD/
 │   ├── package-lock.json
 │   └── server.js
 │
-├── frontend/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   ├── auth.js
-│   │   └── quizzes.js
-│   ├── login.html
-│   ├── register.html
-│   └── quizzes.html
+└── frontend/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   ├── auth.js
+    │   └── quizzes.js
+    ├── login.html
+    ├── register.html
+    └── quizzes.html
