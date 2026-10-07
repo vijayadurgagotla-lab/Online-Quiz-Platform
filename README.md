@@ -36,6 +36,7 @@ A web-based Online Quiz Platform that allows users to register, log in, attend q
 
 ## Project Structure
 
+```text
 OnlineQuizPlatformFSD/
 ├── backend/
 │   ├── configure/
@@ -60,3 +61,4 @@ OnlineQuizPlatformFSD/
     ├── login.html
     ├── register.html
     └── quizzes.html
+```
